@@ -9,8 +9,9 @@ Mobile hot reload is a testing tool for develop purpose. I made it for my self. 
     1 git clone https://github.com/pvtallulah/mobile-hot-reload.git
     2 cd mobile-hot-reload
     3 Edit (or not) config.xml
+    4 Add platform/s
     4 Compile ipa/apk
-    5 Open App in mobile device and input your dev server url
+    5 Open App in mobile device and input your dev server url, including the port number. in my case localhost:PORT **DOSN'T WORK!** i use 192.168.x.x:PORT
 
 NOTE:
   - If you use cordova, plugins wont work.
