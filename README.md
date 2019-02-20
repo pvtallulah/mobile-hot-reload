@@ -10,8 +10,8 @@ Mobile hot reload is a testing tool for develop purpose. I made it for my self. 
     2 cd mobile-hot-reload
     3 Edit (or not) config.xml
     4 Compile ipa/apk
-    
+    5 Open App in mobile device and input your dev server url
 
 NOTE:
   - If you use cordova, plugins wont work.
-  - If you call an API, must have "Access-Control-Allow-Origin": "*"
+  - If you call an API, must have "Access-Control-Allow-Origin": "*" on server side.
